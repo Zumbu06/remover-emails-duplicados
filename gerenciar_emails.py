@@ -140,7 +140,7 @@ if st.button("Processar e Filtrar Lote"):
             salvar_lista_em_arquivo(emails_mestre, NOME_ARQUIVO_MESTRE)
             
             st.success(f"Lista de novos e-mails salva em: '{caminho_completo_novo_arquivo}'")
-            st.balloons() # Comemoração!
+            #st.balloons() #comemoração
             
             # 6. Mostrar a lista nova para copiar
             st.subheader("Lista de E-mails Novos (Pronta para copiar):")
